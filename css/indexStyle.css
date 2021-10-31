@@ -10,18 +10,18 @@ body {
 
 .intro-left {
   background: url("/images/Dark\ Background\ \ \ \ 01_preview1\ .jfif");
-  background-size: 330%;
-  position: relative;
+  background-size: 380%;
+  position: fixed;
   left: 0;
   width: 25%;
-  height: 90.4%;
+  height: 100%;
   color: white;
 }
 
 @media (max-width: 768px) {
   .intro-left {
     background-size: 150%;
-    height: 35vh;
+    height: 55vh;
     margin-bottom: 0;
     position: relative;
     width: 100%;
@@ -29,7 +29,14 @@ body {
   .intro-left .avatar {
     width: 10rem;
     height: 12rem;
+    margin-top: 3.5rem;
   }
+}
+
+section {
+  margin: 5rem;
+  font-size: 1.2 rem;
+  right: 0;
 }
 
 .avatar {
@@ -50,4 +57,19 @@ body {
 
 .full-height {
   height: 100%;
+}
+
+#firstName {
+  font-weight: bold;
+  color: rgb(16, 16, 168);
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden !important;
+  }
+  .container {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+  }
 }
