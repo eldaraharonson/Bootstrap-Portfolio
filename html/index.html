@@ -76,14 +76,14 @@
         <div class="col-md-4"></div>
         <div class="col-md-8 panel-right px-0">
           <section class="intro">
-            <h1 id="firstName" class="display-1">Eldar Aharonson</h1>
+            <h1 id="name" class="display-1">Eldar Aharonson</h1>
             <h2 class="display-5 mb-5">Software Developer</h2>
 
-            <p>
-              Welcome to my webpage! My name is Eldar Aharonson and I am a
+            <p id="intro-text">
+              <!-- Welcome to my webpage! My name is Eldar Aharonson and I am a
               Computer Science student at IDC Herzelia. I have knowledge in
               backend technologies such as Java, .NET, and Python as well as
-              frontend technologies like Bootstrap and JavaScript.
+              frontend technologies like Bootstrap and JavaScript. -->
             </p>
           </section>
           <section class="links">
@@ -131,6 +131,12 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
-    <script></script>
+    <script>
+      fetch("../json/indexPage.json")
+        .then((response) => response.json())
+        .then((data) => {
+          document.getElementById("intro-text").innerHTML = data.introText;
+        });
+    </script>
   </body>
 </html>
