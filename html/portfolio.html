@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/navBar.css" />
+    <link rel="stylesheet" href="/css/indexStyle.css" />
+
+    <title>Eldar Aharonson</title>
+  </head>
+  <body>
+    <nav
+      class="navbar fixed-top navbar-expand-lg navbar-dark"
+      style="background-color: black"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Eldar Aharonson</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact-me.html">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="background"></div>
+    <div class="container-fluid mb-5">
+      <div class="row">
+        <div class="col">
+          <section class="intro">
+            <h1 class="text-center">My Projects</h1>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <div class="projects">
+      <div class="container mx-3 my-5">
+        <div class="row">
+          <div class="col-8">
+            <h2 class="project-title">Portfolio Website</h2>
+            <h4>Overview:</h4>
+            <p>
+              This website! A self developed project that serves as my biography
+              and a portfolio of my software projects.
+            </p>
+            <h4>Development Information:</h4>
+            <p>
+              Developed using the Bootstrap 5 framework along with HTML/CSS and
+              JavaScript.<br />
+              JSON files were used to store all of the text for the website.
+            </p>
+            <p>
+              <a
+                href="https://github.com/eldaraharonson/Bootstrap-Portfolio"
+                target="_blank"
+                >Click here</a
+              >
+              to check out the project's source code on my Github account.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mx-3 my-5">
+        <div class="row">
+          <div class="col-8">
+            <h2 class="project-title">DNS Sinkhole Server</h2>
+            <h4>Overview:</h4>
+            <p>
+              Developed with one other friend this application is an
+              authoritative DNS server that recieves a domain name as an input
+              (URL) and – by use of iteration in communicating with root-servers
+              and authoritative servers – returns the corresponding IP address.
+              There is also an option to add a text file of domain names for
+              which the server won't return their IP addresses.
+            </p>
+            <h4>Development Information:</h4>
+            <p>
+              A console application developed in Java using OOP principles along
+              with utilization of Wireshark for debugging purposes.
+            </p>
+            <p>
+              <a
+                href="https://github.com/eldaraharonson/DNS-Sinkhole-Resolver"
+                target="_blank"
+                >Click here</a
+              >
+              to check out the project's source code on my Github account.
+            </p>
+          </div>
+          <div class="col-lg-4 align-self-center">
+            <img
+              class="
+                project-pic
+                img-fluid
+                rounded
+                mx-auto
+                d-block
+                align-items-center
+              "
+              src="/images/computer-network.jfif"
+              alt="image"
+              style="size: 500px"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="container mx-3 my-5">
+        <div class="row">
+          <div class="col-8">
+            <h2 class="project-title">Speed Typing Game</h2>
+            <h4>Overview:</h4>
+            <p>
+              A self developed application that allows the user to practice
+              speed typing by allowing them to pick a song from a given folder
+              of famous songs (represented as text files) to use as text to type
+              from.
+              <br />
+              Game statistics such as high scores and average typing speed are
+              maintained for each unique user.
+            </p>
+            <h4>Development Information:</h4>
+            <p>
+              A GUI application developed in Python along with the Tkinter
+              framework.<br />
+              A MySQL database was developed for storing and maintaining the
+              users' game statistics.
+            </p>
+            <p>
+              <a
+                href="https://github.com/eldaraharonson/Typing-Game"
+                target="_blank"
+                >Click here</a
+              >
+              to check out the project's source code on my Github account.
+            </p>
+          </div>
+          <div class="col-lg-4 align-self-center">
+            <img
+              class="
+                project-pic
+                img-fluid
+                rounded
+                mx-auto
+                d-block
+                align-items-center
+              "
+              src="/images/typing.png"
+              alt="image"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="container mx-3 my-5">
+        <div class="row">
+          <div class="col-8">
+            <h2 class="project-title">Popularity Check with Facebook</h2>
+            <h4>Overview:</h4>
+            <p>
+              Developed with one other friend, this app, integrated with
+              Facebook's API, allows the user to log in to their Facebook
+              account and perform 2 different actions:
+            </p>
+            <ul>
+              <li>
+                Find the Facebook friend that has given the user the largest
+                amount of likes on all of the user's likeable elements (posts,
+                pictures, etc.). The friends pool can be filtered based on age
+                and gender.
+              </li>
+              <li>
+                Find the number of members of any Facebook group that the user
+                is a member of. The number of members may be filtered based on
+                age and gender.
+              </li>
+            </ul>
+            <h4>Development Information:</h4>
+            <p>
+              A windows desktop application developed in C# using the .NET
+              Framework and .NET WinForms along with integration of an OOD API
+              of Facebook. Developed using OOP principles along with the Facade
+              design pattern to help provide clear seperation between the UI and
+              the logic.
+            </p>
+            <p>
+              <a
+                href="https://github.com/eldaraharonson/Facebook-App-Part-2"
+                target="_blank"
+                >Click here</a
+              >
+              to check out the project's source code on my Github account.
+            </p>
+          </div>
+          <div class="col-lg-4 align-self-center">
+            <img
+              class="
+                project-pic
+                img-fluid
+                rounded
+                mx-auto
+                d-block
+                align-items-center
+              "
+              src="/images/facebookLike.jpg"
+              alt="image"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="container mx-3 my-5">
+        <div class="row">
+          <div class="col-8">
+            <h2 class="project-title">Memory Game</h2>
+            <h4>Overview:</h4>
+            <p>
+              A game where the users are presented with a board of blank cards
+              and need to find all of the matching pairs. In every turn the user
+              picks a pair of cards, the cards' contents are shown for a few
+              seconds and then are hidden again. Every time a matching pair is
+              found the player is awarded a point. After all of the matching
+              pairs have been found the player with the most points wins. <br />
+              The game can be played using 2 players or 1 player against the
+              CPU.
+            </p>
+            <h4>Development Information:</h4>
+            <p>
+              A windows desktop app developed in C# using the .NET Framework and
+              .NET WinForms. I developed it using OOP principles.
+            </p>
+            <p>
+              <a
+                href="https://github.com/eldaraharonson/Memory-Game"
+                target="_blank"
+                >Click here</a
+              >
+              to check out the project's source code on my Github account.
+            </p>
+          </div>
+          <div class="col-lg-4 align-self-center">
+            <img
+              class="
+                project-pic
+                img-fluid
+                rounded
+                mx-auto
+                d-block
+                align-items-center
+              "
+              src="/images/memory-game.jfif"
+              alt="image"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="container mx-3 my-5">
+        <div class="row">
+          <div class="col-8">
+            <h2 class="project-title">VR Escape Room</h2>
+            <h4>Overview:</h4>
+            <p>
+              A vitual reality game that mimics an escape room. The user puts on
+              a VR headset and needs to solve several tasks in order to escape
+              and beat the game.
+            </p>
+            <h4>Development Information:</h4>
+            <p>
+              Developed with the Unity game engine and the XR Interactions
+              Toolkit plugin. Scripting done with C#.
+            </p>
+            <p>
+              <a
+                href="https://github.com/eldaraharonson/EscapeRoom"
+                target="_blank"
+                >Click here</a
+              >
+              to check out the project's source code on my Github account.
+            </p>
+          </div>
+          <div class="col-lg-4 align-self-center">
+            <img
+              class="
+                project-pic
+                img-fluid
+                rounded
+                mx-auto
+                d-block
+                align-items-center
+              "
+              src="/images/vrHeadset.jpg"
+              alt="image"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script></script>
+  </body>
+</html>
