@@ -5,7 +5,7 @@
             "title": "Portfolio Website",
             "overview": "This site! A self developed responsive website that serves as my biography and a portfolio of my software projects.",
             "devInfo": "Developed using the Bootstrap 5 framework along with HTML/CSS and JavaScript.<br />JSON files were used to store all of the text for the website.",
-            "pictureURL": "https://eldaraharonson.github.io/Bootstrap-Portfolio/images/webpage.jfif",
+            "pictureURL": "./images/webpage.jfif",
             "githubLink": "https://github.com/eldaraharonson/Bootstrap-Portfolio"
         },
         {
