@@ -90,7 +90,7 @@ section {
   height: 100%;
 }
 
-#firstName {
+#name {
   font-weight: bold;
   color: rgb(16, 16, 168);
 }
@@ -118,7 +118,3 @@ p,
 li {
   font-family: "Times New Roman", Times, serif;
 }
-
-/* .mm {
-  height: 200px;
-} */
