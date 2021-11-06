@@ -126,12 +126,6 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
-    <script>
-      fetch("../json/indexPage.json")
-        .then((response) => response.json())
-        .then((data) => {
-          document.getElementById("intro-text").innerHTML = data.introText;
-        });
-    </script>
+    <script src="/javascript/indexScript.js"></script>
   </body>
 </html>
