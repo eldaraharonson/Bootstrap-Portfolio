@@ -9,7 +9,7 @@ body {
 }
 
 .intro-left {
-  background: url("/images/dark-background.jfif");
+  background: url("../images/dark-background.jfif");
   background-size: 380%;
   position: fixed;
   left: 0;

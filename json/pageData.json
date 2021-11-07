@@ -5,42 +5,42 @@
             "title": "Portfolio Website",
             "overview": "This site! A self developed responsive website that serves as my biography and a portfolio of my software projects.",
             "devInfo": "Developed using the Bootstrap 5 framework along with HTML/CSS and JavaScript.<br />JSON files were used to store all of the text for the website.",
-            "pictureURL": "/images/webpage.jfif",
+            "pictureURL": "./images/webpage.jfif",
             "githubLink": "https://github.com/eldaraharonson/Bootstrap-Portfolio"
         },
         {
             "title": "DNS Sinkhole Server",
             "overview": "Developed with one other friend this application is an authoritative DNS server that recieves a domain name as an input (URL) and – by use of iteration in communicating with root-servers and authoritative servers – returns the corresponding IP address. There is also an option to add a text file of domain names for which the server won't return their IP addresses.",
             "devInfo": "A console application developed in Java using OOP principles along with utilization of Wireshark for debugging purposes.",
-            "pictureURL": "/images/computer-network.jfif",
+            "pictureURL": "./images/computer-network.jfif",
             "githubLink": "https://github.com/eldaraharonson/DNS-Sinkhole-Resolver"
         },
         {
             "title": "Speed Typing Game",
             "overview": " A self developed application that allows the user to practice speed typing by allowing them to pick a song from a given folder of famous songs (represented as text files) to use as text to type from. <br /> Game statistics such as high scores and average typing speed are maintained for each unique user.",
             "devInfo": "A GUI application developed in Python along with the Tkinter framework.<br /> A MySQL database was developed for storing and maintaining the users' game statistics.",
-            "pictureURL": "/images/typing.png",
+            "pictureURL": "./images/typing.png",
             "githubLink": "https://github.com/eldaraharonson/Typing-Game"
         },
         {
             "title": "Popularity Check with Facebook",
             "overview": "Developed with one other friend, this app, integrated with Facebook's API, allows the user to log in to their Facebook account and perform 2 different actions:<br /> <ul><li>Find the Facebook friend that has given the user the largest amount of likes on all of the user's likeable elements (posts, pictures, etc.). The friends pool can be filtered based on age and gender.</li><li>Find the number of members of any Facebook group that the user is a member of. The number of members may be filtered based on age and gender.</li></ul> ",
             "devInfo": "A windows desktop application developed in C# using the .NET Framework and .NET WinForms along with integration of an OOD API of Facebook. Developed using OOP principles along with the Facade design pattern to help provide clear seperation between the UI and the logic.",
-            "pictureURL": "/images/facebookLike.jpg",
+            "pictureURL": "./images/facebookLike.jpg",
             "githubLink": "https://github.com/eldaraharonson/Facebook-App-Part-2"
         },
         {
             "title": "Memory Game",
             "overview": "This self developed project is a game where the users are presented with a board of blank cards and need to find all of the matching pairs. In every turn the user picks a pair of cards, the cards' contents are shown for a few seconds and then are hidden again. Every time a matching pair is found the player is awarded a point. After all of the matching pairs have been found the player with the most points wins. <br /> The game can be played using 2 players or 1 player against the CPU.",
             "devInfo": "A windows desktop app developed in C# using the .NET Framework and .NET WinForms. I developed it using OOP principles.",
-            "pictureURL": "/images/memory-game.jfif",
+            "pictureURL": "./images/memory-game.jfif",
             "githubLink": "https://github.com/eldaraharonson/Memory-Game"
         },
         {
             "title": "VR Escape Room",
             "overview": "A vitual reality game that mimics an escape room. The user puts on a VR headset and needs to solve several tasks in order to escape and beat the game.",
             "devInfo": "Developed with the Unity game engine and the XR Interactions Toolkit plugin. Scripting done with C#.",
-            "pictureURL": "/images/vrHeadset.jpg",
+            "pictureURL": "./images/vrHeadset.jpg",
             "githubLink": "https://github.com/eldaraharonson/EscapeRoom"
         }
     ]

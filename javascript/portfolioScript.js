@@ -1,5 +1,6 @@
 
-fetch("/json/pageData.json")
+
+fetch("https://eldaraharonson.github.io/Bootstrap-Portfolio/json/pageData.json")
         .then((response) => response.json())
         .then((data) => {
           let titles = document.getElementsByClassName("project-title");
